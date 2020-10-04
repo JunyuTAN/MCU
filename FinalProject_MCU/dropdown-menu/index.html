@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS-Only Nested Dropdown Navigation Demo</title>
+<link href="tinyreset.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="menu-style.css">
+</head>
+
+<body>
+<div class="container">
+  <nav>
+    <input id='css-menu' type='checkbox'>
+    <label class='down' for='css-menu'>
+    <h2>Menu</h2>
+    </label>
+    <ul>
+      <li>
+        <input id='link-gallery' type='checkbox'>
+        <label class='right' for='link-gallery'>Film</label>
+        <ul>
+          <li> <a>First</a> </li>
+          <li> <a>Second</a> </li>
+          <li><a>Third</a></li>
+        </ul>
+      </li>
+      <li> <a>Hero</a> </li>
+      <li> <a>Story</a> </li>
+      <li> <a>Eggs</a> </li>
+    </ul>
+  </nav>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+
+ <div class="content-wrapper">
+      <h2>Avengers: Infinity War</h2>
+      <span>复仇者联盟3：无限战争</span>
+      <p></p>
+      <img src="img/poster.jpg">
+    </div>
+    
+</body>
+</html>
